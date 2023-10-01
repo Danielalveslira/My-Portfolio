@@ -1,0 +1,63 @@
+.sub-header {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    color: #ccc
+}
+
+.projects {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.projects .card {
+    padding: 3rem 2rem;
+    background-color: #27272a;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    gap: 2rem;
+}
+
+.projects .card:hover {
+    background-color: #323232;
+    border-color: #fff;
+}
+
+.projects .card .content {
+    flex: 1;
+    margin-bottom: 2rem;
+}
+
+.projects .card h4 {
+    margin-bottom: 1rem;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.projects .card h4 {
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+}
+
+.projects .card p i {
+    color: #ccc;
+    font-size: 1.2rem;
+    margin-right: 0.3rem;
+}
+
+.projects .card button {
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+
+.projects .card button:hover {
+    background-color: #1e40af;
+    border-color: #1e40af;
+}
