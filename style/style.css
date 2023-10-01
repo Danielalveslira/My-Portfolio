@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
-@import '/style/header.css';
-@import '/style/secoes.css';
-@import '/style/secoes2.css';
+@import './header.css';
+@import './secoes.css';
+@import './secoes2.css';
 
 * {
     padding: 0;
