@@ -24,3 +24,35 @@ link2.addEventListener('click', () => {
 link3.addEventListener('click', () => {
     scrollToElement('.column');
 });
+
+// Adicionando eventos aos botões
+document.addEventListener('DOMContentLoaded', function () {
+    const btn1 = document.getElementById('btn1');
+    const btn2 = document.getElementById('btn2');
+    const btn3 = document.getElementById('btn3');
+
+    btn1.addEventListener('click', function () {
+        const link = btn1.getAttribute('data-link');
+        window.location.href = link;
+    });
+
+    btn2.addEventListener('click', function () {
+        const link = btn2.getAttribute('data-link');
+        window.location.href = link;
+    });
+
+    btn3.addEventListener('click', function () {
+        const link = btn3.getAttribute('data-link');
+        window.location.href = link;
+    });
+
+    btn4.addEventListener('click', function () {
+        const link = btn4.getAttribute('data-link');
+        window.location.href = link;
+    });
+
+    btn5.addEventListener('click', function () {
+        const link = btn5.getAttribute('data-link');
+        window.location.href = link;
+    });
+});
