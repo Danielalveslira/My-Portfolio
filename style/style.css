@@ -2,6 +2,8 @@
 @import './header.css';
 @import './secoes.css';
 @import './secoes2.css';
+@import './footer.css';
+@import './responsivo.css';
 
 * {
     padding: 0;
@@ -36,7 +38,7 @@ nav{
 }
 
 .nav-logo {
-    max-width: 100px;
+    max-width: 150px;
 }
 
 .nav-links {
