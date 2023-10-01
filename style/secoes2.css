@@ -15,6 +15,7 @@
 .projects .card {
     padding: 3rem 2rem;
     background-color: #27272a;
+    color: #fff;
     display: flex;
     flex-direction: column;
     border: 2px solid transparent;
@@ -38,9 +39,6 @@
     color: #fff;
     font-size: 1.2rem;
     font-weight: 500;
-}
-
-.projects .card h4 {
     padding: 10px;
     border-bottom: 1px solid #fff;
 }
